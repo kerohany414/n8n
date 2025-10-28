@@ -85,6 +85,9 @@
     "typescript": "*",
     "zx": "^8.1.4"
   },
+  "optionalDependencies": {
+  "@rolldown/binding-linux-x64-gnu": "^1.0.0"
+ },
   "pnpm": {
     "onlyBuiltDependencies": [
       "sqlite3"
@@ -114,7 +117,10 @@
       "date-fns": "2.30.0",
       "date-fns-tz": "2.0.0",
       "form-data": "4.0.4",
-      "tmp": "0.2.4"
+      "tmp": "0.2.4",
+      "vite": {
+      "rollup": "npm:@rollup/wasm-node"
+    }
     },
     "patchedDependencies": {
       "bull@4.16.4": "patches/bull@4.16.4.patch",
