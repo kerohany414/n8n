@@ -85,10 +85,6 @@
     "typescript": "*",
     "zx": "^8.1.4"
   },
- "optionalDependencies": {
-    "@rolldown/binding-linux-x64-gnu": "^1.0.0"
-  },
-
   "pnpm": {
     "onlyBuiltDependencies": [
       "sqlite3"
